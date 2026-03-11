@@ -151,10 +151,10 @@ export default function LandingSection({ onOpenInvitation }: LandingSectionProps
         }`}
       >
         {/* Double Happiness Symbol with glow */}
-        <div className="mb-8 relative">
-          <div className="absolute inset-0 w-24 h-24 rounded-full bg-[#F3C66C]/40 blur-xl animate-pulse" />
-          <div className="relative w-24 h-24 rounded-full bg-gradient-to-br from-[#F3C66C] to-[#d4a84a] flex items-center justify-center shadow-2xl border-4 border-[#F3C66C]/50">
-            <span className="text-[#89251E] text-4xl font-bold drop-shadow-sm">囍</span>
+        <div className="mb-5 relative">
+          <div className="absolute inset-0 w-16 h-16 rounded-full bg-[#F3C66C]/40 blur-xl animate-pulse" />
+          <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-[#F3C66C] to-[#d4a84a] flex items-center justify-center shadow-2xl border-[3px] border-[#F3C66C]/50">
+            <span className="text-[#89251E] text-2xl font-bold drop-shadow-sm">囍</span>
           </div>
         </div>
         
@@ -221,7 +221,7 @@ export default function LandingSection({ onOpenInvitation }: LandingSectionProps
         </div>
         
         {/* Open Invitation Button */}
-        <div className="w-full flex justify-center mt-2 sm:mt-4">
+        <div className="w-full flex justify-center -mt-2 sm:-mt-3">
           <Button
             onClick={handleOpenClick}
             className="group relative w-full max-w-xs sm:max-w-sm bg-gradient-to-r from-[#F3C66C] to-[#d4a84a] hover:from-[#d4a84a] hover:to-[#F3C66C] text-[#432F2A] px-6 sm:px-8 py-3.5 sm:py-4 text-base sm:text-lg rounded-full shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-2xl border-2 border-[#F3C66C]/50 font-semibold tracking-wide overflow-hidden"
