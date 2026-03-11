@@ -343,8 +343,6 @@ export function Countdown() {
                           fontFamily:
                             '"Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
                           fontWeight: 700,
-                          textShadow:
-                            "0 6px 22px rgba(0,0,0,0.9), 0 0 20px rgba(0,0,0,0.9)",
                           color: "#FEF7DB",
                         }}
                       >
