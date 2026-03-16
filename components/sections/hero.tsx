@@ -187,7 +187,7 @@ export function Hero() {
               }}
             >
               <p>Saturday</p>
-              <p>7:00 PM</p>
+              <p>6:00 PM</p>
             </div>
 
             {/* Center: day number with red dividers */}
