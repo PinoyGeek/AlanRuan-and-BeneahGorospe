@@ -587,7 +587,7 @@ export function Details() {
               {/* RSVP Contact */}
               <div className="bg-gradient-to-br from-[#F3C66C]/10 via-[#FDF6EA] to-[#FDF6EA] rounded-xl p-5 sm:p-6 md:p-7 border border-[#E0C5A2]">
                 <p className="text-sm sm:text-base md:text-lg font-[family-name:var(--font-crimson)] text-[#3C2A25] leading-relaxed">
-                  <span className="font-semibold">RSVP Contact:</span> Please reach out to {siteConfig.details.rsvp.contact} for any questions regarding your attendance.
+                  <span className="font-semibold">RSVP Contact:</span> Please reach out to  BENEAH & ALAN for any questions regarding your attendance.
                 </p>
               </div>
             </div>

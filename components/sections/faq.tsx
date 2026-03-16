@@ -62,7 +62,7 @@ const faqItems: FAQItem[] = [
   {
     question: "Is there parking available?",
     answer:
-      "Street parking only. There is a close by parking garage see page 7 (hyperlink) for more info. ",
+      "Street parking is limited. The Champion Parking Garage is a 4-minute walk from the venue. If you would like assistance reserving parking, please feel free to contact us. ",
   },
   {
     question: "Can I take photos and videos during the ceremony?",

@@ -7,7 +7,7 @@ export const siteConfig = {
   },
   wedding: {
     date: "MAY 9, 2026",
-    time: "7:00 PM",
+    time: "6:00 PM",
     venue: "Golden Unicorn",
     tagline: "are getting married!",
     theme: "Modern Imperial Chinese Banquet",
@@ -15,7 +15,7 @@ export const siteConfig = {
   },
   details: {
     rsvp: {
-      deadline: "April 11, 2026",
+      deadline: "April 22, 2026",
       contact: "Beneah Gorospe",
       phone: "+1 (646) 331-8829",
       email: "beagorospe18@gmail.com",
@@ -27,7 +27,7 @@ export const siteConfig = {
     venue: "Golden Unicorn",
     date: "May 9, 2026",
     day: "Saturday",
-    time: "7:00 PM",
+    time: "6:00 PM",
     entourageTime: "6:00 PM",
     guestsTime: "6:30 PM",
   },
@@ -36,7 +36,7 @@ export const siteConfig = {
     address: "18 East Broadway, New York, NY 10002",
     venue: "Golden Unicorn",
     date: "May 9, 2026",
-    time: "7:00 PM",
+    time: "6:00 PM",
   },
   dressCode: {
     theme: "Modern Imperial Chinese Banquet",
@@ -70,7 +70,7 @@ Now, standing at the beginning of this new chapter, Beneah is grateful for a lov
   },
   snapShare: {
     googleDriveLink: "https://drive.google.com/drive/folders/1lk45T1tGmm5_Oa48ABV_Cgrnpp1T2kTk?usp=sharing",
-    hashtag: "#AlanAndBeneahSayIDo",
+    hashtag: "#HappilyEverABter",
     instructions: "Please scan this QR Code, create a folder with your name and upload the photos and videos you have taken during our wedding reception. We would love to see your snaps!",
   },
 }

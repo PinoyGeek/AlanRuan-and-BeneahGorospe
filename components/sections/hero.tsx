@@ -137,67 +137,42 @@ export function Hero() {
           </div>
 
           {/* Invite line */}
-          <p className="text-[0.7rem] sm:text-xs tracking-[0.06em] sm:tracking-[0.08em] uppercase text-[#A34B3D] mb-3 sm:mb-3.5">
-            Please join us for the marriage of
+          <p className="text-[0.7rem] sm:text-xs tracking-[0.08em] sm:tracking-[0.12em] uppercase text-[#A34B3D] mb-3 sm:mb-4">
+            Join us for the wedding celebration of
           </p>
 
-          {/* Names row */}
-          <div className="flex items-center justify-center gap-4 sm:gap-5 mb-5 sm:mb-6 w-full">
-            <div className="flex-1 text-center space-y-0.5">
-              <p
-                className="text-2xl sm:text-[1.7rem] md:text-[1.9rem] font-semibold tracking-[0.08em] sm:tracking-[0.1em] uppercase text-[#151010]"
-                style={{
-                  fontFamily:
-                    '"Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                  fontWeight: 600,
-                }}
-              >
-                Alan
-              </p>
-              <p
-                className="text-sm sm:text-base font-medium tracking-[0.1em] sm:tracking-[0.12em] uppercase text-[#4A3A36]"
-                style={{
-                  fontFamily:
-                    '"Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                  fontWeight: 500,
-                }}
-              >
-                Ruan
-              </p>
-            </div>
-            <div className="flex flex-col items-center justify-center text-[#89251E]">
-              <span
-                className="text-3xl sm:text-4xl leading-none"
-                style={{
-                  fontFamily: '"DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                  fontWeight: 400,
-                }}
-              >
-                &
-              </span>
-            </div>
-            <div className="flex-1 text-center space-y-0.5">
-              <p
-                className="text-2xl sm:text-[1.7rem] md:text-[1.9rem] font-semibold tracking-[0.08em] sm:tracking-[0.1em] uppercase text-[#151010]"
-                style={{
-                  fontFamily:
-                    '"Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                  fontWeight: 600,
-                }}
-              >
-                Beneah
-              </p>
-              <p
-                className="text-sm sm:text-base font-medium tracking-[0.1em] sm:tracking-[0.12em] uppercase text-[#4A3A36]"
-                style={{
-                  fontFamily:
-                    '"Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                  fontWeight: 500,
-                }}
-              >
-                Gorospe
-              </p>
-            </div>
+          {/* Names block - script font */}
+          <div className="mb-5 sm:mb-6 w-full flex flex-col items-center gap-0.5 sm:gap-1">
+            <p
+              className="text-3xl sm:text-4xl md:text-[2.7rem] leading-tight"
+              style={{
+                fontFamily: '"Kapakana", cursive',
+                fontWeight: 400,
+                color: "#B52F2F",
+              }}
+            >
+              Alan Ruan
+            </p>
+            <p
+              className="text-3xl sm:text-4xl md:text-5xl tracking-[0.35em] uppercase leading-none"
+              style={{
+                fontFamily: '"Kapakana", cursive',
+                fontWeight: 400,
+                color: "#B52F2F",
+              }}
+            >
+              &
+            </p>
+            <p
+              className="text-3xl sm:text-4xl md:text-[2.7rem] leading-tight"
+              style={{
+                fontFamily: '"Kapakana", cursive',
+                fontWeight: 400,
+                color: "#B52F2F",
+              }}
+            >
+              Beneah Gorospe
+            </p>
           </div>
 
           {/* Date section */}
@@ -255,11 +230,11 @@ export function Hero() {
                 fontWeight: 600,
               }}
             >
-              New York City
+               {siteConfig.ceremony.location} 
 
             </p>
             <p className="text-[0.65rem] sm:text-[0.7rem] tracking-[0.12em] uppercase">
-            {siteConfig.ceremony.location} <br /> {siteConfig.ceremony.address}
+            {siteConfig.ceremony.address}
 
             </p>
           </div>
@@ -295,9 +270,9 @@ export function Hero() {
                 strokeWidth="1.5"
               />
             </svg>
-            <span className="text-[0.7rem] sm:text-xs italic tracking-[0.18em] lowercase">
+            {/* <span className="text-[0.7rem] sm:text-xs italic tracking-[0.18em] lowercase">
               save the date
-            </span>
+            </span> */}
           </div>
         </div>
       </div>

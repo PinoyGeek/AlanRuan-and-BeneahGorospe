@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Image from "next/image"
 
 interface OpeningAnimationProps {
   onComplete: () => void
@@ -487,7 +488,7 @@ export default function OpeningAnimation({ onComplete }: OpeningAnimationProps) 
 
           {/* Seal disc */}
           <div
-            className={`relative w-24 h-24 sm:w-32 sm:h-32 rounded-full flex items-center justify-center transition-transform duration-300 ${
+            className={`relative w-24 h-24 sm:w-30 sm:h-30 rounded-full flex items-center justify-center transition-transform duration-300 ${
               !sealClicked ? "hover:scale-108 active:scale-95" : ""
             }`}
             style={{
@@ -503,15 +504,15 @@ export default function OpeningAnimation({ onComplete }: OpeningAnimationProps) 
               className="absolute inset-4 rounded-full"
               style={{ background: "radial-gradient(circle at 62% 62%, transparent 0%, rgba(0,0,0,0.1) 100%)" }}
             />
-            <span
-              className="relative text-4xl sm:text-5xl font-bold select-none"
-              style={{
-                color: "#89251E",
-                textShadow: "1px 1px 0 rgba(255,255,255,0.4), -1px -1px 0 rgba(0,0,0,0.15)",
-              }}
-            >
-              囍
-            </span>
+            <div className="relative w-20 h-20 sm:w-24 sm:h-24 select-none">
+              <Image
+                src="/monogram/newMonogram.png"
+                alt="Double happiness monogram"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
           </div>
 
           {/* Tap hint */}

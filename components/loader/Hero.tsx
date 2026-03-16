@@ -804,19 +804,19 @@ interface HeroProps {
 }
 
 const desktopImages: string[] = [
-  '/desktop-background/couple (1).jpg',
-  '/desktop-background/couple (2).jpg',
-  '/desktop-background/couple (3).jpg',
-  '/desktop-background/couple (4).jpg',
-  '/desktop-background/couple (5).jpg',
+  '/mobile-background/couple (5).JPG',
+  '/mobile-background/couple (6).JPG',
+  '/mobile-background/couple (7).JPG',
+  '/mobile-background/couple (8).JPG',
+  '/mobile-background/couple (9).JPG',
 ];
 
 const mobileImages: string[] = [
-  '/mobile-background/couple (1).jpg',
-  '/mobile-background/couple (2).jpg',
-  '/mobile-background/couple (3).jpg',
-  '/mobile-background/couple (4).jpg',
-  '/mobile-background/couple (5).jpg',
+  '/desktop-background/couple (7).JPG',
+  '/desktop-background/couple (8).JPG',
+  '/desktop-background/couple (9).JPG',
+  '/desktop-background/couple (10).JPG',
+  '/desktop-background/couple (11).JPG',
 ];
 
 export const Hero: React.FC<HeroProps> = ({ onOpen, visible }) => {
@@ -924,25 +924,25 @@ export const Hero: React.FC<HeroProps> = ({ onOpen, visible }) => {
             contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-8'
           }`}
         >
-          <div className="relative w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 flex items-center justify-center">
+          <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 flex items-center justify-center">
             {/* Monogram Image with subtle animation */}
             <div 
-              className="relative w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52 lg:w-60 lg:h-60 transition-transform duration-700 ease-out hover:scale-105"
-              style={{
-                animation: contentVisible ? 'gentleFloat 3s ease-in-out infinite' : 'none'
-              }}
+              className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 lg:w-52 lg:h-52 transition-transform duration-700 ease-out hover:scale-105"
+              // style={{
+              //   animation: contentVisible ? 'gentleFloat 3s ease-in-out infinite' : 'none'
+              // }}
             >
               <Image
-                src="/monogram/monogram.png"
+                src="/monogram/newMonogram.png"
                 alt="Monogram"
                 fill
                 className="object-contain drop-shadow-lg"
                 priority
-                style={{
-                  // White with glow #FBCCC9
-                  filter:
-                    'brightness(0) invert(1) drop-shadow(0 0 5px #FBCCC9) drop-shadow(0 0 10px #FBCCC9)',
-                }}
+                // style={{
+                //   // White with glow #FBCCC9
+                //   filter:
+                //     'brightness(0) invert(1) drop-shadow(0 0 5px #FBCCC9) drop-shadow(0 0 10px #FBCCC9)',
+                // }}
               />
             </div>
           </div>
@@ -958,8 +958,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpen, visible }) => {
             style={{
               fontFamily: '"Great Vibes", cursive',
               fontWeight: 400,
-              color: '#FFFFFF',
-              textShadow: '0 0 10px #FBCCC9, 0 0 20px #FBCCC9',
+              color: '#FDF6EA',
+              textShadow: '0 0 10px #F3C66C, 0 0 20px #F3C66C',
             }}
           >
             You are
@@ -972,8 +972,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpen, visible }) => {
             style={{
               fontFamily: '"Cinzel", serif',
               fontWeight: 700,
-              color: '#FFFFFF',
-              textShadow: '0 0 10px #FBCCC9, 0 0 20px #FBCCC9',
+              color: '#FDF6EA',
+              textShadow: '0 0 10px #F3C66C, 0 0 20px #F3C66C',
               letterSpacing: '0.05em',
             }}
           >
@@ -988,23 +988,23 @@ export const Hero: React.FC<HeroProps> = ({ onOpen, visible }) => {
               contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
             style={{
-              backgroundColor: '#C44569',
-              borderColor: '#C44569',
-              color: '#FFFFFF',
+              backgroundColor: '#8B1E1E',
+              borderColor: '#F3C66C',
+              color: '#FDF6EA',
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = '#D65D7D';
+              e.currentTarget.style.backgroundColor = '#5E1414';
               e.currentTarget.style.transform = 'translateY(-2px)';
-              e.currentTarget.style.borderColor = '#D65D7D';
+              e.currentTarget.style.borderColor = '#F3C66C';
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = '#C44569';
+              e.currentTarget.style.backgroundColor = '#8B1E1E';
               e.currentTarget.style.transform = 'translateY(0)';
-              e.currentTarget.style.borderColor = '#C44569';
+              e.currentTarget.style.borderColor = '#F3C66C';
             }}
           >
             <span
-              style={{ fontFamily: '"Cinzel", serif', fontWeight: 600, color: '#FFFFFF' }}
+              style={{ fontFamily: '"Cinzel", serif', fontWeight: 600, color: '#FDF6EA' }}
             >
               Open Invitation
             </span>

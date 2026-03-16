@@ -16,7 +16,7 @@ import { Registry } from "@/components/sections/registry"
 import { FAQ } from "@/components/sections/faq"
 import { Footer } from "@/components/sections/footer"
 import { LoveStory } from "@/components/sections/love-story"
-import LandingSection from "@/components/loader/landing-section"
+import { Hero as LandingHero } from "@/components/loader/Hero"
 import OpeningAnimation from "@/components/opening-animation"
 import { LoadingScreen } from "@/components/loader/LoadingScreen"
 import { Navbar } from "@/components/navbar"
@@ -61,7 +61,7 @@ export default function Home() {
 
         <main className="relative w-full h-full">
           {stage === "landing" && (
-            <LandingSection onOpenInvitation={handleOpenInvitation} />
+            <LandingHero onOpen={handleOpenInvitation} visible={stage === "landing"} />
           )}
 
           <div
@@ -81,7 +81,7 @@ export default function Home() {
             <div className="relative z-10">
               {stage === "main" && <Navbar />}
               <MainHero />
-              <Welcome />
+              {/* <Welcome /> */}
               {/* <CoupleVideo />  */}
               <Countdown />
               <LoveStory />
@@ -90,7 +90,7 @@ export default function Home() {
               <Details />
               {/* <GuestInformation /> */}
               <Entourage />
-              <WeddingTimeline />
+              {/* <WeddingTimeline /> */}
               {/* <PrincipalSponsors /> */}
               <GuestList />
               <BookOfGuests />

@@ -13,11 +13,11 @@ interface LoadingScreenProps {
 const COUNTDOWN_BOXES = [
   { src: '/Couple_img/couple1.JPG' },
   { src: '/Couple_img/couple2.JPG' },
-  { src: '/Couple_img/couple3.JPG' },
+  { src: '/Couple_img/DSC05730.jpg' },
 ];
 
-const MAIN_BW_IMAGE = '/mobile-background/couple.jpg';
-const MAIN_BW_DESKTOP = '/desktop-background/couple.jpg';
+const MAIN_BW_IMAGE = '/countdown/DSC_0516.JPG';
+const MAIN_BW_DESKTOP = '/countdown/DSC_0518.JPG';
 const STAGGER_DELAY_MS = 4000; // Each image appears every 4 seconds
 const BOX_TRANSITION_MS = 1200; // Slow, smooth transition
 const TOTAL_DURATION_MS = COUNTDOWN_BOXES.length * STAGGER_DELAY_MS + 3000;
@@ -170,7 +170,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
           </div>
 
           <p className="text-center mb-4 sm:mb-5">
-            <span
+            {/* <span
               className="inline-block text-xs sm:text-sm tracking-[0.18em] sm:tracking-[0.22em] px-3 py-1.5 rounded-full backdrop-blur-sm border"
               style={{
                 color: palette.deep,
@@ -183,7 +183,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
               }}
               >
                 {hashtag}
-              </span>
+              </span> */}
             </p>
 
             <h2 className="text-center">

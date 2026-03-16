@@ -471,7 +471,7 @@ export function Entourage() {
                         </TwoColumnLayout>
                         
                         {/* Principal Sponsors section - displayed after Parents */}
-                        {sponsors.length > 0 && (
+                        {/* {sponsors.length > 0 && (
                           <div key="SponsorsAfterParents">
                             <div className="flex justify-center py-1.5 sm:py-2 md:py-2.5 mb-2 sm:mb-2.5 md:mb-3">
                             </div>
@@ -514,7 +514,7 @@ export function Entourage() {
                               ))}
                             </TwoColumnLayout>
                           </div>
-                        )}
+                        )} */}
                       </div>
                     )
                   }
