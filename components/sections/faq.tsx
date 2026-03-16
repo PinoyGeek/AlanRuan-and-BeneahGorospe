@@ -27,17 +27,17 @@ const faqItems: FAQItem[] = [
   {
     question: "When is the wedding?",
     answer:
-      `Our wedding will be held on ${siteConfig.ceremony.date} (${siteConfig.ceremony.day}) at ${siteConfig.ceremony.time}. We kindly ask guests to arrive by ${siteConfig.ceremony.guestsTime} to help us begin promptly.`,
+      `Our wedding will be held on ${siteConfig.ceremony.date} (${siteConfig.ceremony.day}) at ${siteConfig.ceremony.time}.  We kindly ask the guests to arrive at 6:00 PM.`,
   },
   {
     question: "Where will the ceremony and reception take place?",
     answer:
-      `The ceremony will be held at ${siteConfig.ceremony.location} in ${siteConfig.ceremony.address}. The reception will follow at ${siteConfig.reception.location} in ${siteConfig.reception.address}.`,
+      `The ceremony and reception will be held at Golden Unicorn, 18 E Broadway, New York, NY 10002.`,
   },
   {
     question: "What time should I arrive?",
     answer:
-      `Kindly arrive by ${siteConfig.ceremony.guestsTime} so we can begin the ceremony promptly at exactly ${siteConfig.ceremony.time}. The entourage will arrive at ${siteConfig.ceremony.entourageTime}. Your punctuality means so much to us!`,
+      `We recommend arriving by 6:00 PM so you have time to get settled before the program begins. Entourage members are kindly requested to arrive by 5:30 PM.`,
   },
   {
     question: "Can I bring a plus one or additional guests?",
